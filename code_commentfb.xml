@@ -1,0 +1,15 @@
+// duoi post.body
+<!-- binh luan facebook-->
+  <div class='fb-comments' data-numposts='10' data-width='600px' expr:data-url='data:post.canonicalUrl'/>
+<!-- navigation -->
+// duoi the <body>
+<!--binh luan facebook-->
+&lt;div id=&quot;fb-root&quot;&gt;&lt;/div&gt;
+&lt;script&gt;(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = &#39;https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&amp;version=v3.2&amp;appId=1142515345915909&amp;autoLogAppEvents=1&#39;;
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));&lt;/script&gt;
+<!-- end binh luan-->
